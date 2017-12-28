@@ -1,4 +1,4 @@
 #!/bin/bash
-cp ~/.tmux.conf tmux_conf
-cp ~/.vimrc vimrc
-cp ~/.vim vim -rf
+cp ~/.tmux.conf tmux/.tmux.conf
+cp ~/.vimrc vim/.vimrc
+cp ~/.vim vim/ -rf
