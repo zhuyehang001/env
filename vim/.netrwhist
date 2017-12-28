@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/var/lib/apt'
+let g:netrw_dirhist_2='/var/lib/apt/lists'
+let g:netrw_dirhist_3='/var/lib/apt'
+let g:netrw_dirhist_4='/var/lib/apt/mirrors'
+let g:netrw_dirhist_5='/var/lib/apt/mirrors/partial'
+let g:netrw_dirhist_6='/var/lib/apt/mirrors'
+let g:netrw_dirhist_7='/var/lib/apt'
