@@ -1,0 +1,44 @@
+[user]
+	email = zhuyehang001@live.com
+	name = Yehang Zhu
+[github]
+    user = zhuyehang001
+[alias]
+    diff = diff --ignore-space-at-eol -b -w --ignore-blank-lines
+    co = checkout
+    cob = checkout -b
+    s = status --short
+    ss  = status
+    br = branch -v
+    l = log --graph --pretty=format:'%Cred%h%Creset %C(bold blue)%an%C(reset) - %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = auto
+    ui = auto
+[color "branch"]
+    current = green bold
+    local = green
+    remote = red bold
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+[color "status"]
+    added = green bold
+    changed = yellow bold
+    untracked = red
+[push]
+    # push will only do the current branch, not all branches
+    default = current
+[branch]
+    # set up 'git pull' to rebase instead of merge
+    autosetuprebase = always
+[diff]
+    renames = copies
+    mnemonicprefix = true
+    compactionHeuristic = true
+[difftool]
+    prompt = false
