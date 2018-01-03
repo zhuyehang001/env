@@ -96,19 +96,19 @@ if !exists(":DiffOrig")
 endif
 
 set ts=4
-set st=4
+set sw=4
 set number
 set nowrap
 
-execute pathogen#infect()
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list=1
-let g:syntastic_audo_loc_list=1
-let g:syntaxtic_check_on_open=1
-let g:syntaxtic_check_on_wq=0
+"execute pathogen#infect()
+"set statusline+=%#warningmsg#
+"set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%*
+"
+"let g:syntastic_always_populate_loc_list=1
+"let g:syntastic_audo_loc_list=1
+"let g:syntaxtic_check_on_open=1
+"let g:syntaxtic_check_on_wq=0
 
 "autocmd vimenter * NERDTree
 

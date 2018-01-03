@@ -2,7 +2,7 @@
 	email = zhuyehang001@live.com
 	name = Yehang Zhu
 [github]
-    user = zhuyehang001
+    user = Yehang Zhu
 [alias]
     diff = diff --ignore-space-at-eol -b -w --ignore-blank-lines
     co = checkout
@@ -37,8 +37,9 @@
     # set up 'git pull' to rebase instead of merge
     autosetuprebase = always
 [diff]
+	tool = vimdiff
     renames = copies
     mnemonicprefix = true
     compactionHeuristic = true
 [difftool]
-    prompt = false
+	tool = vimdiff
