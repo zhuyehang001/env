@@ -1,8 +1,10 @@
 [user]
 	email = zhuyehang001@live.com
-	name = Yehang Zhu
+	name = zyh1010
 [github]
-    user = Yehang Zhu
+    user = zyh1010
+[core]
+	editor = vim
 [alias]
     diff = diff --ignore-space-at-eol -b -w --ignore-blank-lines
     co = checkout
